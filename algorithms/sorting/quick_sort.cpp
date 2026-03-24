@@ -7,6 +7,7 @@ using namespace std;
  * Time Complexity:
  * - Best/Average: O(n log n)
  * - Worst: O(n^2)
+ * 
  * Space Complexity: O(log n)
  */
 
@@ -34,15 +35,25 @@ void quickSort(int arr[], int low, int high) {
     }
 }
 
-// Test
+// Hàm in mảng
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+// Test nhanh
 int main() {
-    int arr[] = {10, 7, 8, 9, 1, 5};
+    int arr[] = {5, 2, 9, 1, 5, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Mang ban dau: ";
+    printArray(arr, n);
 
     quickSort(arr, 0, n - 1);
 
-    for (int i = 0; i < n; i++)
-        cout << arr[i] << " ";
+    cout << "Mang sau khi sap xep: ";
+    printArray(arr, n);
 
     return 0;
 }
