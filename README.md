@@ -9,7 +9,6 @@ Repo này dùng để học và luyện tập **Cấu trúc dữ liệu & Giải
 - Hiểu rõ bản chất các cấu trúc dữ liệu
 - Nắm vững các thuật toán phổ biến
 - Luyện tư duy giải bài toán
-- Chuẩn bị cho phỏng vấn kỹ thuật
 
 ---
 
@@ -17,7 +16,7 @@ Repo này dùng để học và luyện tập **Cấu trúc dữ liệu & Giải
 
 ### 1. 📦 Data Structures (Cấu trúc dữ liệu)
 
-- Array (Mảng)
+- Array
 - Linked List
   - Singly Linked List
   - Doubly Linked List
@@ -34,7 +33,7 @@ Repo này dùng để học và luyện tập **Cấu trúc dữ liệu & Giải
 
 ### 2. ⚙️ Algorithms (Thuật toán)
 
-#### 🔄 Sorting (Sắp xếp)
+#### 🔄 Sorting
 - Bubble Sort
 - Insertion Sort
 - Selection Sort
@@ -42,11 +41,11 @@ Repo này dùng để học và luyện tập **Cấu trúc dữ liệu & Giải
 - Quick Sort
 - Heap Sort
 
-#### 🔍 Searching (Tìm kiếm)
+#### 🔍 Searching
 - Linear Search
 - Binary Search
 
-#### 🔁 Recursion (Đệ quy)
+#### 🔁 Recursion
 - Factorial
 - Fibonacci
 
@@ -85,4 +84,3 @@ Repo này dùng để học và luyện tập **Cấu trúc dữ liệu & Giải
 
 ---
 
-## 📁 Cấu trúc thư mục
