@@ -17,9 +17,9 @@ using namespace std;
 int linearSearch(int arr[], int n, int target) {
     for (int i = 0; i < n; i++) {
         if (arr[i] == target)
-            return i;  // trả về vị trí
+            return i;   // trả về vị trí
     }
-    return -1; // không tìm thấy
+    return -1;  // không tìm thấy
 }
 
 // Hàm in Danh sách
