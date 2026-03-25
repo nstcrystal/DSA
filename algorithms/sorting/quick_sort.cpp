@@ -35,7 +35,7 @@ void quickSort(int arr[], int low, int high) {
     }
 }
 
-// Hàm in mảng
+// Hàm in Danh sách
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
@@ -47,12 +47,12 @@ int main() {
     int arr[] = {5, 2, 9, 1, 5, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    cout << "Mang ban dau: ";
+    cout << "Danh sách ban dau: ";
     printArray(arr, n);
 
     quickSort(arr, 0, n - 1);
 
-    cout << "Mang sau khi sap xep: ";
+    cout << "Danh sách sau khi sap xep: ";
     printArray(arr, n);
 
     return 0;
