@@ -39,12 +39,12 @@ int main() {
     int arr[] = {5, 2, 9, 1, 5, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    cout << "Danh sách ban dau: ";
+    cout << "Danh sach ban dau: ";
     printArray(arr, n);
 
     selectionSort(arr, n);
 
-    cout << "Danh sách sau khi sap xep: ";
+    cout << "Danh sach sau khi sap xep: ";
     printArray(arr, n);
 
     return 0;
