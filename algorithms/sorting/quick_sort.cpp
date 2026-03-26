@@ -12,7 +12,7 @@ using namespace std;
  */
 
 int partition(int arr[], int low, int high) {
-    int pivot = arr[high];  // chọn pivot cuối
+    int pivot = arr[high];  // chọn pivot là phần tử cuối
     int i = low - 1;
 
     for (int j = low; j < high; j++) {
