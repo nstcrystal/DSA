@@ -14,40 +14,50 @@ using namespace std;
 // Chọn pivot
 int selectPivot(int arr[], int start, int end) {
     int i = start + 1;
+
     while (i < end && arr[i] == arr[start]) {
         i++;
     }
+
     if (i == end) {
         return -1;
     }
+
     if (arr[i] > arr[start]) {
         return arr[i];
     }
+
     return arr[start];
 }
 
 int partition(int arr[], int start, int end, int pivot) {
     int l = start;
     int r = end - 1;
+
     while (l <= r) {
         while (arr[l] < pivot) {
             l++;
         }
+
         while (arr[r] >= pivot) {
             r--;
         }
+
         if (l <= r) {
             swap(arr[l], arr[r]);
         }
     }
+
     return l;
 } 
 
 
 void quickSort(int arr[], int start, int end) {
     int pivot = selectPivot(arr, start, end);
+
     if (pivot != -1) {
         int mid = partition(arr, start, end, pivot);
+        
         quickSort(arr, start, mid - 1);
         quickSort(arr, mid, end);
     }
