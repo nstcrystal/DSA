@@ -19,9 +19,12 @@ Node *createNode(int x) {
 void insertFirst(Node *&head, int x) {
     Node *node = createNode(x);
 
-    if (head != nullptr) {
-        node->next = head;
+    if (head == nullptr) {
+        head = node;
+        return;
     }
+
+    node->next = head;
     head = node;
 }
 
@@ -32,6 +35,7 @@ void browse(Node *head) {
         } else {
             cout << head->data << " -> ";
         }
+        
         head = head->next;
     }
 }
